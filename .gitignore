@@ -1,6 +1,6 @@
-vim/.vim/bundle
+!gnupg/.gnupg/gpg-agent.conf
+**/.DS_Store
+gnupg/.gnupg/*
 tmux/.tmux/plugins
 vim/.vim/backup
-!gnupg/.gnupg/gpg-agent.conf
-gnupg/.gnupg/*
-**/.DS_Store
+vim/.vim/bundle
