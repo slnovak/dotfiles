@@ -1,0 +1,13 @@
+# ~/.tmuxinator/gmsec.yml
+
+name: gmsec
+root: ~/code/gmsec
+
+windows:
+  - main:
+      layout: 5257,204x51,0,0{121x51,0,0,2,82x51,122,0[82x5,122,0,3,82x45,122,6,4]}
+      panes:
+        - vim
+        - MBServer
+        - be irb
+  - gmsec_source: vim -c '~/code/GMSEC_API-3.6'

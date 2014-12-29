@@ -10,7 +10,6 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'godlygeek/tabular'
-Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'sjl/gundo.vim'
@@ -18,17 +17,21 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'kien/ctrlp.vim'
+Plugin 'rking/ag.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-colorscheme solarized
 
 filetype plugin indent on
 
 nnoremap <space>u :GundoToggle<CR>
 nnoremap <space><space> :NERDTreeToggle<CR>
 nnoremap <space>f :NERDTreeFind<CR>
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
 let NERDTreeIgnore = ['\.pyc$']
 
@@ -66,6 +69,8 @@ set switchbuf=useopen,usetab
 set tabstop=2
 set tagbsearch
 set viminfo='10,\"100,:20,%,n~/.viminfo
+
+colorscheme solarized
 
 hi clear SignColumn
 let g:vim_markdown_folding_disabled=1
