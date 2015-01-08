@@ -5,9 +5,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'bling/vim-airline'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'kchmck/vim-coffee-script'
@@ -31,6 +31,10 @@ filetype plugin indent on
 nnoremap <space>u :GundoToggle<CR>
 nnoremap <space><space> :NERDTreeToggle<CR>
 nnoremap <space>f :NERDTreeFind<CR>
+nmap <Up> <C-W>-<C-W>-
+nmap <Down> <C-W>+<C-W>+
+nmap <Left> <C-W><<C-W><
+nmap <Right> <C-W>><C-W>>
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'

@@ -1,9 +1,14 @@
 setopt extended_glob
+export DISABLE_LS_COLORS=true
 
-export DOTFILES=$HOME/code/dotfiles
+export ZSH_THEME="powerline"
+
+export ZSH=$HOME/.oh-my-zsh
+source ~/.oh-my-zsh/oh-my-zsh.sh
 export ZSH=$HOME/.zsh
 
-export ZSH_THEME="robbyrussell"
+export DOTFILES=$HOME/code/dotfiles
+
 export PROJECTS=~/code
 
 # use .localrc for secret info
@@ -42,6 +47,7 @@ do
 
   # initialize autocomplete here, otherwise functions won't be loaded
   autoload -U compinit
+
   compinit
 
   # load every completion after autocomplete loads
@@ -60,3 +66,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 GPG_TTY=$(tty)
 export GPG_TTY
 eval $(gpg-agent --daemon)
+
+export PATH=$PATH:~/Library/Python/2.7/bin
+source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
