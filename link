@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+for directory in *(/); do
+  echo "Linking $directory..."
+  stow -t ~ $directory
+done
