@@ -1,0 +1,7 @@
+{
+  "name": "Default color scheme for IPython prompt",
+  "groups": {
+    "prompt":         { "fg": "solarized:base2", "bg": "solarized:base03", "attr": [] },
+    "prompt_count":   { "fg": "solarized:base3", "bg": "solarized:base03", "attr": ["bold"] }
+  }
+}

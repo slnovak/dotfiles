@@ -2,5 +2,5 @@
 
 for directory in *(/); do
   echo "Linking $directory..."
-  stow -t ~ $directory
+  stow -t ~ $directory --ignore='./*.zsh'
 done

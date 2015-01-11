@@ -1,7 +1,7 @@
 setopt extended_glob
 export DISABLE_LS_COLORS=true
 
-export ZSH_THEME="powerline"
+export ZSH_THEME="robbyrussell"
 
 export ZSH=$HOME/.oh-my-zsh
 source ~/.oh-my-zsh/oh-my-zsh.sh
@@ -67,5 +67,4 @@ GPG_TTY=$(tty)
 export GPG_TTY
 eval $(gpg-agent --daemon)
 
-export PATH=$PATH:~/Library/Python/2.7/bin
-source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+source ~/code/powerline/powerline/bindings/zsh/powerline.zsh

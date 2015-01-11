@@ -1,4 +1,5 @@
 !gnupg/.gnupg/gpg-agent.conf
+**/*.swp
 **/.DS_Store
 gnupg/.gnupg/*
 tmux/.tmux/plugins
