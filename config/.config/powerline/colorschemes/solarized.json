@@ -14,7 +14,7 @@
     "system_load_gradient":                      {"fg": "solarized:base3",  "bg": "solarized:base03", "attr": []},
     "date":                                      {"fg": "solarized:base3",  "bg": "solarized:base02", "attr": []},
     "time":                                      {"fg": "solarized:base3",  "bg": "solarized:base02", "attr": ["bold"]},
-    "time:divider":                              {"fg": "solarized:base3",  "bg": "solarized:base02", "attr": []},
+    "time:divider":                              {"fg": "solarized:base2",  "bg": "solarized:base02", "attr": []},
     "weather":                                   {"fg": "solarized:base3",  "bg": "solarized:base01", "attr": []},
     "weather_conditions":                        {"fg": "solarized:base3",  "bg": "solarized:base01", "attr": []},
     "weather_condition_blowing_snow":            {"fg": "solarized:base3",  "bg": "solarized:base01", "attr": []},
