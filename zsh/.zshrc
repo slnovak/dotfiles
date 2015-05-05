@@ -46,9 +46,9 @@ do
   done
 
   # initialize autocomplete here, otherwise functions won't be loaded
-  autoload -U compinit
+  autoload -U compinit -u
 
-  compinit
+  compinit -u
 
   # load every completion after autocomplete loads
   for file in ${(M)config_files:#*/completion.zsh}
