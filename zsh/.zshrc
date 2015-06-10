@@ -61,10 +61,6 @@ unset config_files
 unset configs
 
 export RBENV_ROOT=/usr/local/var/rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-GPG_TTY=$(tty)
-export GPG_TTY
-eval $(gpg-agent --daemon)
+if which rbenv > /dev/null; then eval "$(rbenv init - | sed 's/bash/zsh/g')"; fi
 
 # source ~/code/powerline/powerline/bindings/zsh/powerline.zsh
