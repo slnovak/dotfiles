@@ -67,4 +67,4 @@ GPG_TTY=$(tty)
 export GPG_TTY
 eval $(gpg-agent --daemon)
 
-source ~/code/powerline/powerline/bindings/zsh/powerline.zsh
+# source ~/code/powerline/powerline/bindings/zsh/powerline.zsh

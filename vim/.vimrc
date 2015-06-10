@@ -41,6 +41,7 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeShowHidden=1
 
 syntax enable
 
@@ -49,7 +50,7 @@ set backspace=indent,eol,start
 set backup
 set backupdir=~/.vim/backup
 set clipboard=unnamed
-set colorcolumn=95
+set colorcolumn=80
 set diffopt=context:3,iwhite,filler "diff options
 set encoding=utf-8
 set expandtab
@@ -77,7 +78,15 @@ set tabstop=2
 set tagbsearch
 set viminfo='10,\"100,:20,%,n~/.viminfo
 
+autocmd BufRead *.md set textwidth=80
+
 colorscheme solarized
 
 hi clear SignColumn
 let g:vim_markdown_folding_disabled=1
+
+let g:ruby_path=system('cd ~ && rbenv which ruby')
+
+if !empty(matchstr($MY_RUBY_HOME, 'jruby'))
+  let g:ruby_path = join(split(glob($MY_RUBY_HOME.'/lib/ruby/*.*')."\n".glob($MY_RUBY_HOME.'/lib/rubysite_ruby/*'),"\n"),',')
+endif

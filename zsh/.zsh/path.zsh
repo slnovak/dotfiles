@@ -1,1 +1,1 @@
-export PATH=$PATH:~/code/powerline/scripts
+export PATH=$PATH:~/bin:~/code/powerline/scripts
