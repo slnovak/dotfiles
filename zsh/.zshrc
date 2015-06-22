@@ -62,5 +62,3 @@ unset configs
 
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init - | sed 's/bash/zsh/g')"; fi
-
-# source ~/code/powerline/powerline/bindings/zsh/powerline.zsh
