@@ -1,0 +1,3 @@
+docker-machine-pow() {
+  echo $DOCKER_HOST | grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' > ~/.pow/$DOCKER_MACHINE_NAME
+}

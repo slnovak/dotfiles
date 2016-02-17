@@ -62,3 +62,10 @@ unset configs
 
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init - | sed 's/bash/zsh/g')"; fi
+
+source $(which virtualenvwrapper.sh)
+
+source /Users/novast/.iterm2_shell_integration.zsh
+
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which pyenv > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
