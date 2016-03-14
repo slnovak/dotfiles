@@ -5,10 +5,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 
+Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'garbas/vim-snipmate'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'godlygeek/tabular'
+Plugin 'honza/vim-snippets'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'rking/ag.vim'
@@ -16,16 +20,12 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'sjl/gundo.vim'
 Plugin 'slim-template/vim-slim'
+Plugin 'tomtom/tlib_vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
-Plugin 'derekwyatt/vim-scala'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
