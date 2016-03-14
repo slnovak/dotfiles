@@ -8,3 +8,5 @@ alias lt='gls -lArht --color'
 
 alias priceiswrong='afplay ~/.sounds/priceiswrong.mp3'
 alias rimshot='afplay ~/.sounds/rimshot.mp3'
+
+alias restartpow="touch ~/.pow/restart.txt"
