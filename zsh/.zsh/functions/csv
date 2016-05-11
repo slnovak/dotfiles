@@ -1,3 +1,0 @@
-csv(){
-  ipython --pylab --no-banner -i -c "import pandas as pd;data=pd.read_csv(\"$1\",sep=None,engine='python')"
-}
