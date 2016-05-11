@@ -93,3 +93,6 @@ let g:ruby_path=system('cd ~ && rbenv which ruby')
 if !empty(matchstr($MY_RUBY_HOME, 'jruby'))
   let g:ruby_path = join(split(glob($MY_RUBY_HOME.'/lib/ruby/*.*')."\n".glob($MY_RUBY_HOME.'/lib/rubysite_ruby/*'),"\n"),',')
 endif
+
+au BufRead,BufNewFile *.citrus setfiletype ruby
+au BufRead,BufNewFile *.treetop setfiletype ruby

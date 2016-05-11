@@ -34,3 +34,5 @@ end
 def r
   reload!
 end
+
+require 'irbtools'
