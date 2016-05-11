@@ -71,6 +71,7 @@ set nowrapscan
 set number
 set ruler
 set shiftwidth=2
+set shortmess+=I
 set showmatch
 set smartcase
 set smarttab
