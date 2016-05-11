@@ -1,8 +1,8 @@
 setopt extended_glob
 
 source ~/.zsh/aliases.zsh
-source ~/.zsh/config.zsh
 source ~/.zsh/env.zsh
+source ~/.zsh/config.zsh
 source ~/.zsh/fpath.zsh
 source ~/.zsh/path.zsh
 source ~/.zsh/prompt.zsh
