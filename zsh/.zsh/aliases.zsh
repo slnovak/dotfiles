@@ -1,5 +1,5 @@
 alias be='bundle exec'
-alias code='cd $(ghq list -p | peco)'
+alias code='cd ~/dev/src/$(ghq list | sed "/gist/d" | peco)'
 alias l="gls -lAh --color"
 alias la='gls -A --color'
 alias ll="gls -l --color"
