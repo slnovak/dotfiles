@@ -39,6 +39,7 @@ nmap <Up> <C-W>-<C-W>-
 nmap <Down> <C-W>+<C-W>+
 nmap <Left> <C-W><<C-W><
 nmap <Right> <C-W>><C-W>>
+map <leader>r :!ruby %<cr>
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
