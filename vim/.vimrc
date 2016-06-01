@@ -98,3 +98,4 @@ endif
 
 au BufRead,BufNewFile *.citrus setfiletype ruby
 au BufRead,BufNewFile *.treetop setfiletype ruby
+au Filetype python setl et ts=2 sw=2
