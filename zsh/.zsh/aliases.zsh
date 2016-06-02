@@ -12,7 +12,8 @@ alias priceiswrong='afplay ~/.sounds/priceiswrong.mp3'
 alias rimshot='afplay ~/.sounds/rimshot.mp3'
 
 # git
+alias gd='git diff'
+alias git='hub'
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --all | emojify"
 alias gp='git push origin HEAD'
 alias gs='git status -sb'
-alias gd='git diff'
