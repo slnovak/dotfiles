@@ -99,3 +99,6 @@ endif
 au BufRead,BufNewFile *.citrus setfiletype ruby
 au BufRead,BufNewFile *.treetop setfiletype ruby
 au Filetype python setl et ts=2 sw=2
+
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
