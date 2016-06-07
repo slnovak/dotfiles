@@ -11,6 +11,7 @@ alias powme="ln -s ${PWD} ~/.pow/${PWD##*/}"
 # sounds
 alias priceiswrong='afplay ~/.sounds/priceiswrong.mp3'
 alias rimshot='afplay ~/.sounds/rimshot.mp3'
+alias sadtrombone='afplay ~/.sounds/sadtrombone.mp3'
 
 # git
 alias gd='git diff'
