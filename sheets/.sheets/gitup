@@ -1,0 +1,2 @@
+# Add all repositories to gitup
+gitup --add ~/dev/src/*/*/*(D)
