@@ -168,7 +168,6 @@ brew 'poppler'
 brew 'sfcgal'
 brew 'postgis'
 brew 'pow'
-brew 'powerline'
 brew 'primesieve'
 brew 'protobuf', args: ['devel']
 brew 'py2cairo'
