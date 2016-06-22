@@ -6,7 +6,7 @@ alias ll="gls -l --color"
 alias ls="gls -F --color"
 alias lt='gls -lArht --color'
 alias restartpow="touch ~/.pow/restart.txt"
-alias powme="ln -s ${PWD} ~/.pow/${PWD##*/}"
+alias powme='ln -s ${PWD} ~/.pow/${PWD##*/}'
 
 # sounds
 alias priceiswrong='afplay ~/.sounds/priceiswrong.mp3'
