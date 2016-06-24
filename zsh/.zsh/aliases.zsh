@@ -16,7 +16,7 @@ alias sadtrombone='afplay ~/.sounds/sadtrombone.mp3'
 # git
 alias gd='git diff'
 alias git='hub'
-alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --all | emojify"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --all | emojify | less"
 alias gp='git push origin HEAD'
 alias gs='git status -sb'
 
