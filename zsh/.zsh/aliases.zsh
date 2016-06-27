@@ -21,3 +21,4 @@ alias gp='git push origin HEAD'
 alias gs='git status -sb'
 
 alias refresh-git-bookmarks="gls -d ~/dev/**/.git | xargs -n 1 dirname | xargs gitup --add"
+alias dump-git-repositories="ghq list | xargs -n 1 -I{} bash -c 'cd ~/dev/src/{}; git remote get-url origin' | sed 's/ssh:\/\/git@/https:\/\//g'"
