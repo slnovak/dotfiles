@@ -1,1 +1,1 @@
-/Users/novast/dev/src/github.com/VundleVim/Vundle.vim
+../../../../../VundleVim/Vundle.vim
