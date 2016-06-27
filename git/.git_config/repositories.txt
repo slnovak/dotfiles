@@ -1,5 +1,5 @@
-https://gist.github.com/d5420c630571fc3658007c0baaee9b35.git
 https://gist.github.com/slnovak/a59963442bf93dc39e8b9a000e877916
+https://gist.github.com/slnovak/d5420c630571fc3658007c0baaee9b35.git
 https://gist.github.com/slnovak/eb97a6482ac6babbf1ddbe91d18e9af2
 https://github.com/AngularShowcase/angular2-sample-app
 https://github.com/Intel-HLS/Cromwell
@@ -23,11 +23,11 @@ https://github.com/Intel-HSS/htsjdk
 https://github.com/Intel-HSS/store
 https://github.com/Intel-HSS/variant-store-client
 https://github.com/Intel-HSS/workflow-profiler
-https://github.com/gmarik/Vundle.vim.git
 https://github.com/altercation/solarized.git
 https://github.com/defunkt/dotjs
 https://github.com/engineyard/todo.git
 https://github.com/git/git.git
+https://github.com/gmarik/Vundle.vim.git
 https://github.com/gmarik/Vundle.vim.git
 https://github.com/google/protobuf
 https://github.com/hw-cookbooks/postgresql
