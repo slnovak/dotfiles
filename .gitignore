@@ -4,4 +4,4 @@
 gnupg/.gnupg/*
 tmux/.tmux/plugins
 vim/.vim/backup
-vim/.vim/bundle
+vim/.vim/bundle/*

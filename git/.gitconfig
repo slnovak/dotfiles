@@ -2,7 +2,7 @@
     protocol = https
 [user]
     name  = Stefan Novak
-    email = stefan@novak.io
+	email = stefan.novak@airbnb.com
 [credential]
     helper = osxkeychain
 [alias]
@@ -11,6 +11,7 @@
     wtf               = !$ZSH/bin/git-wtf
     rank-contributers = !$ZSH/bin/git-rank-contributers
     count             = !git shortlog -sn
+  edit = !$EDITOR $(git status --short | awk '$1 ~ /^M|A|U/ {print $2}' )
 [color]
     diff   = auto
     status = auto
@@ -19,6 +20,8 @@
 [core]
     excludesfile = ~/.gitignore
     editor       = vim
+	precomposeunicode = true
+	sparseCheckout = true
 [apply]
     whitespace = nowarn
 [mergetool]
@@ -28,7 +31,7 @@
 [help]
     autocorrect = 1
 [push]
-    default = simple
+	default = current
 [filter "media"]
     clean    = git media clean %f
     smudge   = git media smudge %f
@@ -42,3 +45,5 @@
     show = diff-so-fancy | less --tabs=1,5 -RFX
 [ghq]
     root = ~/dev/src
+[rerere]
+	enabled = true
