@@ -7,7 +7,7 @@ call vundle#begin()
 
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'altercation/vim-colors-solarized'
+" Plugin 'altercation/vim-colors-solarized'
 Plugin 'ayu-theme/ayu-vim'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'garbas/vim-snipmate'
@@ -16,6 +16,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'honza/vim-snippets'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'kudabux/vim-srcery-drk'
 Plugin 'kien/ctrlp.vim'
 Plugin 'rking/ag.vim'
 Plugin 'ruby-matchit'
@@ -93,11 +94,11 @@ set viminfo='10,\"100,:20,%,n~/.viminfo
 
 autocmd BufRead *.md set textwidth=80
 
-set termguicolors     " enable true colors support
-let ayucolor="light"  " for light version of theme
-let ayucolor="mirage" " for mirage version of theme
-let ayucolor="dark"   " for dark version of theme
-colorscheme ayu       " otherwise solarized
+set termguicolors      " enable true colors support
+let ayucolor="light"   " for light version of theme
+let ayucolor="mirage"  " for mirage version of theme
+let ayucolor="dark"    " for dark version of theme
+colorscheme srcery-drk " otherwise solarized
 
 hi clear SignColumn
 let g:vim_markdown_folding_disabled=1
