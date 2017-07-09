@@ -9,6 +9,8 @@ source ~/.zsh/prompt.zsh
 source ~/.zsh/window.zsh
 source ~/.zsh/work.zsh
 
+source $ZSH/oh-my-zsh.sh
+
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit -u
 compinit -u
