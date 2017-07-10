@@ -273,7 +273,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>65 243 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>665 147 570 452 0 0 1440 877 </string>
+	<string>702 178 570 426 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -506,7 +506,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
